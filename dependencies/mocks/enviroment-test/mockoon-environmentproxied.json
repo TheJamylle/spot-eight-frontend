@@ -1,0 +1,89 @@
+{
+  "uuid": "8c100736-b1e4-4063-aef5-a09a329ce009",
+  "lastMigration": 25,
+  "name": "EnvironmentProxied",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 7000,
+  "hostname": "0.0.0.0",
+  "routes": [
+    {
+      "uuid": "eaf5dcb2-d1af-411c-aa68-9b0677d8e513",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "api/example",
+      "responses": [
+        {
+          "uuid": "f453368f-c6d4-45ca-a37e-34906a726c90",
+          "body": "{\r\n    \"title\": \"Demo API Title\",\r\n    \"description\": \"Demo API Description\"\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "databucketID": "",
+          "bodyType": "INLINE"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    }
+  ],
+  "proxyMode": true,
+  "proxyHost": "https://api.github.com/",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    },
+    {
+      "key": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "key": "Access-Control-Allow-Methods",
+      "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+    },
+    {
+      "key": "Access-Control-Allow-Headers",
+      "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": [],
+  "folders": [],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "eaf5dcb2-d1af-411c-aa68-9b0677d8e513"
+    }
+  ]
+}
