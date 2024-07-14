@@ -11,7 +11,8 @@ O projeto SpotEight é uma aplicação de streaming de músicas com gerenciament
 -   Biblioteca de Interface do Usuário: React
 -   Gerenciamento de Estado: Effector
 -   Formatação de Código: ESLint e Prettier
--  Gerenciamento de Variáveis de Ambiente: .env
+-   Gerenciamento de Variáveis de Ambiente: .env
+-   Realização de Requisições HTTP: Axios
 
 ### Requisitos de Sistema
 
