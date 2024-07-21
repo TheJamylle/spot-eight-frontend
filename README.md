@@ -7,7 +7,7 @@ O projeto SpotEight é uma aplicação de streaming de músicas com gerenciament
 
 ### Tecnologias Utilizadas
 
--   Linguagem de Programação: TypeScript
+-   Linguagem de Programação: JavaScript e TypeScript
 -   Biblioteca de Interface do Usuário: React
 -   Gerenciamento de Estado: Effector
 -   Formatação de Código: ESLint e Prettier
